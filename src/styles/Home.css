@@ -1,0 +1,135 @@
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #3DB166;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button, .portfolio-btn, .hire-btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #3DB166;
+    cursor: pointer;
+}
+
+button {
+    background-color: #3DB166;
+    color: white;
+}
+
+button:hover {
+    background-color: #192F59;
+    color: #3DB166;
+}
+
+.portfolio-btn {
+    background-color: #3DB166;
+    color: white;
+}
+
+.portfolio-btn:hover {
+    background-color: #192F59;
+    color: #3DB166;
+}
+
+.hire-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.hire-btn:hover {
+    background-color: #192F59;
+    color: #3DB166;
+}
+
+/* Box (icon or image with text) */
+.box {
+    padding: 10px;
+    background-color: #3DB166;
+    color: white;
+    border-radius: 6px;
+}
+
+/* Main Content */
+.main-content {
+    background-color: #F2F2F2;
+    color: #24272C;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    box-shadow: 0 6px 15px 0 rgba(74,99,231,.1);
+    flex: 1;
+    margin: 50px auto; /* To center the content horizontally */
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    height: 650px;
+    width: 875px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+/* Icon Styles */
+.icon {
+    color: #3DB166; /* Primary color */
+}
+
+.icon-filled {
+    background-color: #3DB166; /* Primary color as background */
+    color: white;
+}

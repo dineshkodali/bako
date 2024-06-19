@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a.active {
+  color: yellow; /* Example color for active link */
+}
+
+.section {
+  height: 100vh; /* Full viewport height for each section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Additional styles for each section */
+#home {
+  background-color: #4C57C4;
+  color: white;
+}
+
+#about {
+  background-color: #6B6B6B;
+  color: white;
+}
+
+#skills {
+  background-color: #FF6B6B;
+  color: white;
+}
+
+#contact {
+  background-color: #4A90E2;
+  color: white;
+}
