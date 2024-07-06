@@ -39,7 +39,7 @@ a:hover {
 button, .portfolio-btn, .hire-btn {
     padding: 10px 20px;
     border-radius: 6px;
-    border: 1px solid #3DB166;
+    border: 1px solid white;
     cursor: pointer;
 }
 
@@ -54,24 +54,23 @@ button:hover {
 }
 
 .portfolio-btn {
-    background-color: #3DB166;
+    background-color: #FF6B6B;
     color: white;
 }
 
 .portfolio-btn:hover {
-    background-color: #192F59;
-    color: #3DB166;
+    background-color: #3B4FE4;
+    color: white;
 }
 
 .hire-btn {
     background-color: transparent;
     color: white;
-    border: 1px solid white;
 }
 
 .hire-btn:hover {
-    background-color: #192F59;
-    color: #3DB166;
+    background-color: white;
+    color: black;
 }
 
 /* Box (icon or image with text) */
@@ -85,7 +84,10 @@ button:hover {
 /* Main Content */
 .main-content {
     background-color: #F2F2F2;
-    color: #24272C;
+    background-image: url("../images/download.jpeg");
+    background-repeat: no-repeat;
+    background-size: 900px 800px;
+    color: #F2F2F2;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     box-shadow: 0 6px 15px 0 rgba(74,99,231,.1);
@@ -113,6 +115,7 @@ button:hover {
 .intro h1 {
     font-size: 3em;
     margin-bottom: 20px;
+    color: #F2F2F2;
 }
 
 .intro p {

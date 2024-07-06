@@ -9,7 +9,7 @@ function Sidebar() {
       <div className="profile">
         <img src={img1} alt="Professional headshot of Bako Doe" className="profile-pic" />
         <h2>Bako Doe</h2>
-        <p>Web Developer</p>
+        <p>WEB DEVELOPER</p>
       </div>
       <nav>
         <ul>
@@ -24,8 +24,23 @@ function Sidebar() {
             </Link>
           </li>
           <li>
-            <Link to="skills" className="nav-link" smooth={true} duration={500}>
-              <i className="fas fa-file-alt"></i> Skills
+            <Link to="services" className="nav-link" smooth={true} duration={500}>
+              <i className="fas fa-lightbulb"></i> Services
+            </Link>
+          </li>
+          <li>
+            <Link to="resume" className="nav-link" smooth={true} duration={500}>
+              <i className="fas fa-file-alt"></i> Resume
+            </Link>
+          </li>
+          <li>
+            <Link to="works" className="nav-link" smooth={true} duration={500}>
+              <i className="fas fa-th"></i> Works
+            </Link>
+          </li>
+          <li>
+            <Link to="blog" className="nav-link" smooth={true} duration={500}>
+              <i className="fas fa-pen"></i> Blog
             </Link>
           </li>
           <li>
@@ -42,7 +57,6 @@ function Sidebar() {
         <i className="fab fa-youtube"></i>
         <i className="fab fa-dribbble"></i>
       </div>
-      <footer></footer>
     </div>
   );
 }
